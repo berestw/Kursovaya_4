@@ -15,7 +15,7 @@ class SortedVacancies:
         Сортировка json файла
         :return:
         """
-        with open(FILE, encoding='utf-8') as file:
+        with open(FILE, encoding="utf-8") as file:
             content = json.load(file)
         for i in content["items"]:
             if i["salary"]["from"] is None:
