@@ -1,4 +1,4 @@
-from src.user_form import UserForm
+from src.abstract_user_form import UserForm
 
 
 class DebugUserJson(UserForm):

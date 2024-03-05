@@ -1,5 +1,5 @@
 from config import FILE
-from src.vacancies_api import VacanciesAPI
+from src.abstract_vacancies_api import VacanciesAPI
 from src.vacancies import Vacancies
 import json
 import requests
